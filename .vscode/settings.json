@@ -1,0 +1,13 @@
+{
+  "python.terminal.activateEnvironment": true,
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "python.linting.pylintArgs": [
+    "--rcfile=pylintrc"
+  ],
+  "files.trimTrailingWhitespace": true,
+  "python.linting.lintOnTextChange": true,
+  "python.linting.lintOnSave": false
+}

@@ -4,7 +4,7 @@
     {
       "label": "Atualizar requirements.txt",
       "type": "shell",
-      "command": "pip freeze > requirements.txt",
+      "command": "cmd /c \".\\.venv\\Scripts\\activate && pip freeze > requirements.txt\"",
       "group": {
         "kind": "build",
         "isDefault": true
